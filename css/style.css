@@ -552,16 +552,21 @@ button {
 
 .stats-grid {
   grid-template-columns: repeat(4, minmax(180px, 1fr));
+  gap: 1.25rem;
 }
 
 .stat-card {
   text-align: center;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .stat-number {
   display: block;
   font-size: clamp(2rem, 3vw, 3rem);
-  color: var(--primary-dark);
+  color: var(--white);
 }
 
 .stat-card p {
@@ -944,4 +949,119 @@ body.light-theme .footer-nav a {
 
 body.light-theme .footer-copy {
   color: var(--text-secondary);
+}
+
+body.light-theme .section-header h2 {
+  color: var(--text-main);
+}
+
+body.light-theme .section-header p,
+body.light-theme .video-body p,
+body.light-theme .testimonial-content p,
+body.light-theme .stat-card p {
+  color: rgba(44, 62, 80, 0.72);
+}
+
+body.light-theme .brand,
+body.light-theme .brand-name {
+  color: var(--text-main);
+}
+
+body.light-theme .btn-secondary,
+body.light-theme .btn-outline {
+  color: var(--text-main);
+  border-color: rgba(44, 62, 80, 0.12);
+}
+
+body.light-theme .benefit-card,
+body.light-theme .video-card,
+body.light-theme .stat-card,
+body.light-theme .testimonial-card,
+body.light-theme .contact-card,
+body.light-theme .hero-card {
+  background: var(--surface-strong);
+  border-color: rgba(44, 62, 80, 0.08);
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .video-card:hover,
+body.light-theme .video-card:focus-within {
+  background: var(--surface);
+  border-color: rgba(44, 62, 80, 0.14);
+}
+
+body.light-theme .card-icon {
+  background: rgba(42, 82, 152, 0.08);
+  border-color: rgba(44, 62, 80, 0.08);
+}
+
+body.light-theme .social-links a {
+  color: var(--primary-dark);
+  background: rgba(42, 82, 152, 0.05);
+  border-color: rgba(44, 62, 80, 0.08);
+}
+
+body.light-theme .hero-card {
+  color: var(--text-main);
+}
+
+body.light-theme .hero-stats div {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(44, 62, 80, 0.1);
+  box-shadow: 0 10px 28px rgba(44, 62, 80, 0.06);
+}
+
+body.light-theme .stat-number {
+  color: var(--primary-dark);
+}
+
+body.light-theme .hero-stats strong,
+body.light-theme .hero-stats p,
+body.light-theme .section-header p,
+body.light-theme .video-body p,
+body.light-theme .testimonial-content p,
+body.light-theme .stat-card p,
+body.light-theme .contact-form label,
+body.light-theme .contact-form h3,
+body.light-theme .contact-card ul,
+body.light-theme .footer-copy,
+body.light-theme .footer-nav a,
+body.light-theme .footer-brand {
+  color: rgba(44, 62, 80, 0.82);
+}
+
+body.light-theme .hero-stats strong {
+  color: var(--primary-dark);
+}
+
+body.light-theme .video-meta {
+  color: rgba(44, 62, 80, 0.72);
+}
+
+body.light-theme .video-meta span,
+body.light-theme .tag,
+body.light-theme .badge {
+  background: rgba(42, 82, 152, 0.08);
+  color: var(--primary-dark);
+}
+
+body.light-theme .contact-form input,
+body.light-theme .contact-form textarea {
+  border-color: rgba(44, 62, 80, 0.12);
+  color: var(--text-main);
+}
+
+body.light-theme .contact-form input::placeholder,
+body.light-theme .contact-form textarea::placeholder,
+body.light-theme .video-tools input::placeholder {
+  color: rgba(44, 62, 80, 0.55);
+}
+
+body.light-theme .nav-list a {
+  color: var(--text-secondary);
+}
+
+body.light-theme .nav-list a:hover,
+body.light-theme .nav-list a:focus-visible {
+  color: var(--primary-dark);
 }
