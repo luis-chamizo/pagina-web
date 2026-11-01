@@ -10,4 +10,4 @@ HTML, CSS y JavaScript, sin frameworks.
 
 ## Cómo verla
 
-Sitio publicado: https://mariiodk.github.io/pagina-web/
+Sitio publicado: https://luis-chamizo.github.io/pagina-web/
