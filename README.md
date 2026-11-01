@@ -2,6 +2,8 @@
 
 Página web de presentación de una plataforma académica ficticia con programas certificados, cursos y videos educativos.
 
+![Captura de la página](docs/captura.png)
+
 ## Tecnologías
 
 HTML, CSS y JavaScript, sin frameworks.
