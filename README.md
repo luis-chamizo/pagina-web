@@ -8,4 +8,4 @@ HTML, CSS y JavaScript, sin frameworks.
 
 ## Cómo verla
 
-Descarga el repositorio y abre `index.html` en el navegador.
+Sitio publicado: https://mariiodk.github.io/pagina-web/
